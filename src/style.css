@@ -1,2 +1,60 @@
 /* CSS 스타일을 작성해 주세요. */
 @import 'tailwindcss';
+
+@theme {
+  --breakpoint-tablet: 501px;
+  --breakpoint-desktop: 1281px;
+  --color-primary: #0075ff;
+  --color-secondary: #fff;
+  --color-secondary: #f5f5f5;
+  --color-accent: #276ef1;
+  --color-negative: #e11900;
+  --color-warning: #ffc043;
+  --color-positive: #048848;
+
+  --color-primary-dark: white;
+  --color-secondary-dark: black;
+  --color-tertiary-dark: #424242;
+
+  /* Contents */
+  --color-contentPrimary: black;
+  --color-contentSecondary: #6b6b6b;
+  --color-contentTertiary: #a6a6a6;
+
+  --color-contentPrimary-dark: white;
+  --color-contentSecondary-dark: #a6a6a6;
+  --color-contentTertiary-dark: #898989;
+
+  /* Border Transparent */
+  --color-borderOpaque: #898989;
+  --color-borderTransparent: rgba(137, 137, 137, 0.3);
+  --color-positiveTransparent: rgba(4, 136, 72, 0.1);
+  --color-negativeTransparent: rgba(225, 25, 0, 0.1);
+
+  --color-borderOpaque-dark: #c4c4c4;
+
+  /* form 사용자 정의 */
+  --color-input-bg-gray: #f5f5f5;
+  --color-input-border-gray: #898989;
+  /* 반복 사용되는 변수 선언 */
+  --size-mw125: 500px; /* max-w-125 */
+  --size-mw212: 850px; /* max-w-212.5 */
+  --size-mw420: 1680px; /* max-w-420 */
+  --size-mw320: 1280px; /* max-w-320 */
+
+  --size-input-mw113: 452px; /* max-w-113 */
+  --size-input-mw196: 786px; /* max-w-196.5 */
+  --size-input-mw142: 570px; /* max-w-142.5 */
+
+  --size-input-mw54: 218px; /* max-w-54.5 */
+  --size-input-mw96: 385px; /* max-w-96.25 */
+  --size-input-mw69: 277px; /* max-w-69.25 */
+
+  --size-input-h12: 50px; /* h-12.5 */
+
+  /* 유효성 검사 색상 추가 */
+  --color-valid-bg: #f0fdf4; /* green-50 */
+  --color-valid-border: #22c55e; /* green-500 */
+  --color-invalid-bg: #fef2f2; /* red-50 */
+  --color-invalid-border: #fb2c36; /* red-500 */
+}
