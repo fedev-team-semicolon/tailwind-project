@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header & download</title>
+    <link rel="shortcut icon" href="/favicon/likelion.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon/likelion.svg" type="image/svg+xml" />
+    <link rel="preload" as="font" href="/font/suit/SUIT-Variable.woff2" />
+    <link rel="stylesheet" href="/font/suit/SUIT-Variable.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header class="bg-primary box-border py-[12px] text-secondary">
+      <div class="header-wrap flex px-[1.5rem] desktop:px-[4rem] justify-between desktop:justify-normal desktop:py-[12px] desktop:mx-auto desktop:max-w-[88rem]">
+        <h1 class="logo me-[25px]">
+          <a href="/" class="w-[39px] h-[39px] flex items-center">
+            <img src="/images/header-logo.svg" alt="UT 홈" class="" />
+          </a>
+        </h1>
+
+        <nav class="hidden desktop:block" aria-label="주요 메뉴">
+          <ul class="flex items-center text-base font-semibold py-[8px] leading-[1.5]">
+            <li class="px-[8px]">
+              <a href="#" class="inline-flex gap-[4px] items-center">
+                기업 정보
+                <img src="/src/assets/arrow.svg" alt="" aria-hidden="true" class="my-auto" />
+              </a>
+            </li>
+            <li class="px-[8px]"><a href="#">안전</a></li>
+            <li class="px-[8px]"><a href="#">고객지원</a></li>
+            <li class="px-[8px]"><a href="#">차량 서비스</a></li>
+            <li class="px-[8px]">
+              <a href="#" class="inline-flex gap-[4px] items-center">
+                기사 지원
+                <img src="/src/assets/arrow.svg" alt="" aria-hidden="true" class="my-auto" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <nav aria-label="유틸리티 메뉴" class="desktop:ms-auto">
+          <ul class="inline-flex items-center">
+            <li class="hidden desktop:block me-[12px]">
+              <a href="#" class="flex">
+                <img src="/src/assets/world.svg" alt="" aria-hidden="true" class="me-[4px]" />
+                <span class="lang-label font-bold">KO-KR</span>
+              </a>
+            </li>
+            <li class="h-fit box-border"><a href="#" class="text-base text-primary font-semibold bg-secondary px-[12px] py-[8px] rounded-3xl leading-[1.5] block">가입하기</a></li>
+            <li class="block desktop:hidden">
+              <a href="#" class="ms-[12px] block"><img src="/src/assets/hamburger.svg" alt="메뉴 열기" /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>

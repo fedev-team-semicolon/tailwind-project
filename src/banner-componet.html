@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>banner component</title>
+  </head>
+  <body class="m-0 p-0">
+    <!-- 배너 컴포넌트 -->
+    <div
+      class="banner-inner flex flex-col-revers bg-[url(/src/assets/UberTaxi.png)] h-[256px] [@media(min-width:500px)]:h-[360px] [@media(min-width:1280px)]:min-h-[480px] [@media(min-width:500px)]:bg-[url(/src/assets/UberTaxi-tab.png)] dark:[@media(min-width:500px)]:bg-[url(/src/assets/UberTaxi-dark-tab.png)] dark:bg-[url(/src/assets/UberTaxi-dark.png)] bg-bottom bg-cover [@media(min-width:1280px)]:bg-[url(/src/assets/UberTaxi-pc.png)]]"
+    >
+      <div
+        class="banner-content text-left flex flex-col gap-7 z-1 mx-6 my-10 [@media(min-width:1280px)]:ml-[264px] [@media(min-width:1280px)]:mt-[64px]"
+      >
+        <h2 class="text-[#0075FF] font-bold text-[28px]">우리들의 택시, UT</h2>
+        <p class="text-[16px] font-semibold text-[#0075FF]">
+          UT로 안전하고 편안한 차량 서비스를 이용하세요.
+        </p>
+        <a
+          a
+          href="https://www.uber.com/kr/ko/download/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn btn-primary ico-download bg-[#0075ff] w-[150px] px-[20px] py-4"
+        >
+          <div class="bn-btn-content flex gap-1 justify-center items-center">
+            <img src="/src/assets/Download-icon.svg" alt="" class="h-5 w-5" />
+            <span class="font-semibold text-white">앱 다운로드</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- <div class="w-full h-[256px] relative">
+        <img class="bright-img block dark:hidden absolute inset-0 w-full h-full object-cover" src="/src/assets/UberTaxi.png" alt="" />
+        <img class="dark-img hidden dark:block" src="/src/assets/UberTaxi-dark.png" alt="" />
+      </div> -->
+    </div>
+  </body>
+</html>
