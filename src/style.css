@@ -35,6 +35,7 @@
   --color-borderOpaque-dark: #c4c4c4;
 }
 
+
 @layer components {
   .inner {
     @apply max-w-[1280px] mx-auto px-6 py-10 sm:px-8 sm:py-14 xl:px-16 xl:py-16;
