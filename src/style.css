@@ -1,3 +1,4 @@
+
 /* CSS 스타일을 작성해 주세요. */
 @import 'tailwindcss';
 
@@ -32,4 +33,33 @@
   --color-negativeTransparent: rgba(225, 25, 0, 0.1);
 
   --color-borderOpaque-dark: #c4c4c4;
+}
+
+
+@layer components {
+  .inner {
+    @apply max-w-[1280px] mx-auto px-6 py-10 sm:px-8 sm:py-14 xl:px-16 xl:py-16;
+  }
+
+  .answer-editor {
+    @apply text-2xl leading-[1];
+
+    * {
+      @apply text-base leading-[1.6];
+    }
+
+    ul {
+      @apply ps-[1.4em];
+    }
+
+    ol {
+      @apply ps-[1.4em] list-decimal;
+    }
+  }
+}
+
+@layer utilities {
+  .break-keep-all {
+    word-break: keep-all;
+  }
 }
