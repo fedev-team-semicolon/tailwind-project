@@ -1,13 +1,13 @@
-
 /* CSS 스타일을 작성해 주세요. */
 @import 'tailwindcss';
 
 @theme {
+  --breakpoint-mo: 400px;
   --breakpoint-tablet: 501px;
   --breakpoint-desktop: 1281px;
   --color-primary: #0075ff;
   --color-secondary: #fff;
-  --color-secondary: #f5f5f5;
+  --color-tertiary: #f5f5f5;
   --color-accent: #276ef1;
   --color-negative: #e11900;
   --color-warning: #ffc043;
@@ -34,7 +34,6 @@
 
   --color-borderOpaque-dark: #c4c4c4;
 }
-
 
 @layer components {
   .inner {
